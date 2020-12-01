@@ -1,0 +1,16 @@
+{
+  "name": "constructor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 3000 --open",
+    "build": "parcel build ./src/index.html --no-source-maps"
+  },
+  "author": "Rifat Yarullin <rifat.jarullin@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "assert-plus": "^1.0.0",
+    "webidl-conversions": "^6.1.0"
+  }
+}
